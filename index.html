@@ -143,13 +143,13 @@
                             <!-- Email address input-->
                             <div class="col input-group-newsletter">
                                 <div class="row">
-                                    <div class="col mb-2"><input onkeyup="checkField()" class="form-control" name="username" id="username" type="text" placeholder="Full Name..." aria-label="Full Name..." data-sb-validations="required,email" /></div>
-                                    <div class="col mb-2"><input onkeyup="checkField()" class="form-control" name="mobilenumber" id="mobilenumber" type="text" placeholder="Mobile Number...(OPTIONAL)" aria-label="Mobile Number..."/></div>
+                                    <div class="col-sm-6 mb-2"><input onkeyup="checkField()" class="form-control" name="username" id="username" type="text" placeholder="Full Name..." aria-label="Full Name..." data-sb-validations="required,email" /></div>
+                                    <div class="col-sm-6 mb-2"><input onkeyup="checkField()" class="form-control" name="mobilenumber" id="mobilenumber" type="text" placeholder="Mobile Number...(OPTIONAL)" aria-label="Mobile Number..."/></div>
                                 </div>
+                                <div class="col mb-2"><input onkeyup="checkField()" class="form-control" name="emailAddress" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
                                 <div class="col mb-2"><textarea onkeyup="checkField()" class="form-control" name="message" id="message" type="text" placeholder="Enter Your Message..." aria-label="Enter Your Message..." data-sb-validations="required,email" form="form-signup" rows="3"></textarea></div>
                                 <div class="row input-group-newsletter">
-                                    <div class="col"><input onkeyup="checkField()" class="form-control" name="emailAddress" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                    <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit" disabled>Notify Me!</button></div>
+                                    <div class="col-sm-12"><button  class="btn btn-primary" id="submitButton" type="submit" style="width: 100%;" disabled>Send Message!</button></div>
                                 </div>
                             </div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="username:required">An Full NAme is required.</div>
