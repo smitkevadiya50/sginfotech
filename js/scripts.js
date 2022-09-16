@@ -52,3 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+function checkField(){
+    var name=document.getElementById("username");
+    var emailAddress=document.getElementById("emailAddress");
+    var message=document.getElementById("message");
+
+    if(name.value.length>0 && emailAddress.value.length >0 && message.value.length >0){
+        document.getElementById("submitButton").disabled=false;
+    }else{
+        document.getElementById("submitButton").disabled=true;
+    }
+}
